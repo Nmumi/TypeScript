@@ -168,6 +168,7 @@ TypeScript中的基本类型：
       - ```typescript
         let someValue: unknown = "this is a string";
         let strLength: number = (someValue as string).length;
+        e = e as string
         ```
 
     - 第二种
@@ -175,5 +176,6 @@ TypeScript中的基本类型：
       - ```typescript
         let someValue: unknown = "this is a string";
         let strLength: number = (<string>someValue).length;
+        e = <string>e
         ```
 
