@@ -21,38 +21,27 @@
     +      ...
     +  }
 
-+  自动类型判断
+-  自动类型判断
 
-  +  TS拥有自动的类型判断机制
+  -  TS拥有自动的类型判断机制
 
-  +  当对变量的声明和赋值是同时进行的，TS编译器会自动判断变量的类型
+  -  当对变量的声明和赋值是同时进行的，TS编译器会自动判断变量的类型
 
-  +  所以如果你的变量的声明和赋值时同时进行的，可以省略掉类型声明
+  -  所以如果你的变量的声明和赋值时同时进行的，可以省略掉类型声明
 
-  +  类型：
+  -  类型：
 
-+  类型	例子	描述
+*  类型	例子	描述
 
-  +  number	1, -33, 2.5	任意数字
-
-  +  string	'hi', "hi", hi	任意字符串
-
-  +  boolean	true、false	布尔值true或false
-
-  +  字面量	其本身	限制变量的值就是该字面量的值
-
-  +  any	*	任意类型
-
-  +  unknown	*	类型安全的any
-
-  +  void	空值（undefined）	没有值（或undefined）
-
-  +  never	没有值	不能是任何值
-
-  +  object	{name:'孙悟空'}	任意的JS对象
-
-  +  array	[1,2,3]	任意JS数组
-
-  +  tuple	[4,5]	元素，TS新增类型，固定长度数组
-  
-  +  enum	enum{A, B}	枚举，TS中新增类型
+  *  number	1, -33, 2.5	任意数字*
+  *  string	'hi', "hi", hi	任意字符串*
+  *  boolean	true、false	布尔值true或false*
+  *  字面量	其本身	限制变量的值就是该字面量的值*
+  *  any	*	任意类型*
+  *  unknown	*	类型安全的any*
+  *  void	空值（undefined）	没有值（或undefined）*
+  *  never	没有值	不能是任何值*
+  *  object	{name:'孙悟空'}	任意的JS对象*
+  *  array	[1,2,3]	任意JS数组*
+  *  tuple	[4,5]	元素，TS新增类型，固定长度数组*
+  *  enum	enum{A, B}	枚举，TS中新增类型
